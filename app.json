@@ -17,13 +17,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tkyanaga.ExpoVideoRecordingTutorial"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.tkyanaga.ExpoVideoRecordingTutorial"
     },
     "web": {
       "favicon": "./assets/favicon.png"
